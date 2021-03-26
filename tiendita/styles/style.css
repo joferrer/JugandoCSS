@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: auto;
+    font-size: 2rem;
+}
+header{
+    width: 100vw;   
+}
+
+.nav-header{
+   width: 100%;
+    background-color: #303846;
+    display: grid;
+    grid-template-areas:"a b" ;
+}
+
+.nav-header ul{
+    list-style-type: none;
+    height: auto;
+    margin: .5rem;
+    
+}
+.nav-header li{
+    display: inline-block;
+    margin: auto .5rem;
+    
+}
+
+.nav-header a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.nav-header .logo{
+    display: inline-block;
+  
+    font-size: 3rem;
+    color: aqua;
+    
+}
+.nav-header .logo img{
+    max-width: 4.8rem;
+    max-height: 4.4rem;
+}
+.nav-header .cosas{
+    display:inline-block;
+      
+}
+.logo h1{
+    font-family: monospace;
+}
+.nav-header .cosas li{
+    height: 100%;
+    float: right;
+
+}
+.nav-header .cosas a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main-grid{
+    display: grid;
+    width: 100%;
+    height: auto;   
+    grid-template-areas: "a b";
+    grid-template-columns: 200px 1fr;
+}
+.main-nav{
+    grid-area: a;
+    margin: 0 20px;
+}
+.main-content{
+    grid-area: b;
+    padding-left: 2rem;
+
+}
+.main-nav .imagen{
+    max-width: 200px; 
+    
+}
