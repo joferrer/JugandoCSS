@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+
+    background-color: rgb(53, 53, 53);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+}
+section{
+    width: 100vw;
+}
+
+.nav-header{
+    width: 100%;
+    background-color: aqua;
+    list-style-type: none;
+    font-size: 20px;   
+}
+.nav-header li{
+    display: inline-block;
+    padding: 5px ;
+
+}
+
+.nav-header a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.formulario{
+    
+    width: 100%;
+   display: inline-block;
+    border: 2px solid aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: gray;
+}
+
+.formulario label{    
+    display: block;
+    padding: 5px 0px;
+}
+
+.formulario span{
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+.formulario input{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid aquamarine;
+    font-size: 1.5rem;
+}
+
+.formulario .input-button{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 2px solid aqua;
+    padding: 10px;
+    font-size: 1.5rem;   
+}
+.experimento-poss{
+   
+    margin: 15px auto;
+    width: 100%;
+    height: auto;
+    border: 2px solid aqua;
+
+}
+.experimento-poss .down{
+    padding: 2rem;
+    margin: 0px auto;
+    border: 3px solid darkgreen;
+    background-color: white;
+    width: 80%;
+    border-radius: 0.5rem;
+    
+    
+}
+.experimento-poss .up{
+    position: relative;
+    margin: 0px auto;
+    width: 50%;
+    padding: 1rem;
+    top: 3.5rem;   
+    border:3px solid purple; 
+    background-color: aliceblue;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+.experimento-poss .pika{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    
+}
+.experimento-poss .pikachu{
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+   
+}
+.experimento-poss .down span{
+    font-size: 2.5rem;
+    font-family: monospace;
+    text-align: center;
+    
+}
+ #pikapika  {
+    margin: 0px;
+    border: 0px; 
+    width: 100%;
+    display: inline-block;
+   
+  
+}
+#pikapika span {
+   color: black;
+}
+.orale{
+    display: flex;
+    grid-template-areas:"a b" ;
+}
+h1{
+    color: aqua;
+    font-size: 5.2rem;
+    font-family: monospace;
+}
+
+p{
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    
+}
